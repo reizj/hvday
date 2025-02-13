@@ -1,0 +1,125 @@
+body {
+    background-color: #EBD3F8;
+  }
+.hvd {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #EBD3F8;
+    background-color: #7A1CAC;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2E073F;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7A1CAC;
+    color: #fff0f3;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heart {
+    animation: blink 1s linear infinite;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 75px;
+  }
+  
+  .blow-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #7A1CAC; /* Replace with your desired color */
+    border: 2px solid #2E073F;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blow-button:hover {
+    background-color: #2E073F;
+  }
+  
+  .blow-button .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -250%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .blow-button:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .swal2-icon {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    background: transparent !important;
+  }
+  
+  .custom-confirm-btn {
+    background-color: #7A1CAC !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    font-family: 'Lato' !important;
+    text-transform: uppercase !important;
+  }
+  
+  .custom-confirm-btn:hover {
+    background-color: #2E073F !important;
+  }
+  
+  .custom-swal-container {
+    background-color: transparent !important;
+  }
+  
+  .swal2-popup {
+    background-color: white !important;
+    border-radius: 10px !important;
+  }

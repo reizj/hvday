@@ -1,6 +1,6 @@
 document.querySelector(".blow-button").addEventListener('click', function () {
     Swal.fire({
-      title: 'hvd lods!',
+      title: 'HVD lods!',
       text: 'I\'ve never thought that the woman I just saw waiting alone near the Lingayen terminal last year would lead me to this moment: writing and doing random shit again. Happy Valentine\'s Day, Ramaica. Honestly, I don\'t know what I\'m going to say, but I really appreciated you even before. I hope I made your day even better. HVD lods, sana nakangiti ka :)',
       iconHtml: `
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="100" height="100">
